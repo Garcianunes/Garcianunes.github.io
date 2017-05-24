@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab');
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two');
+
 *,*:before,*:after{
 	box-sizing: border-box;
 	position: relative;
@@ -13,9 +17,14 @@ body{
 	background: #000;
 	height: 100vh;
 }
+@keyframes movie{
+	from{left: -200px;}
+	to{left: 200px;}
+}
 .ft-perfil{
-	width: 50%;
+	width: 30%;
 	border-radius: 50%;
+	animation: movie 5s linear 2s infinite alternate;
 }
 section{
 	display: flex;
@@ -24,11 +33,20 @@ section{
 	justify-content: center;
 }
 h1{
-	color:#fff;
+	color:yellow;
+	font-size: 70px;
+	font-family: 'Josefin Slab', serif;
+	animation: movie 2s linear 2s infinite alternate;
+}
+h2{
+	color: #8D17D9;
+	font-size: 40px;
+	font-family: 'Lobster Two', cursive;
+}
+div{
+
 }
 div img{
 	width: 100px;
-}
-div{
 
 }
