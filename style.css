@@ -22,7 +22,7 @@ body{
 	to{left: 200px;}
 }
 .ft-perfil{
-	width: 30%;
+	width: 50%;
 	border-radius: 50%;
 	animation: movie 5s linear 2s infinite alternate;
 }
@@ -34,19 +34,65 @@ section{
 }
 h1{
 	color:yellow;
-	font-size: 70px;
+	font-size: 50px;
 	font-family: 'Josefin Slab', serif;
-	animation: movie 2s linear 2s infinite alternate;
+	margin: 0;
+
 }
 h2{
-	color: #8D17D9;
-	font-size: 40px;
+	color: pink;
+	font-size: 30px;
+	margin: 5px;
 	font-family: 'Lobster Two', cursive;
 }
 div{
 
 }
 div img{
-	width: 100px;
+	width: 40px;
 
 }
+footer{
+	display:flex;
+	width: 50%;
+	position: fixed;
+	justify-content: center;
+	bottom: 0;
+
+}
+footer p{
+	font-size: 20px;
+	color:yellow;
+	text-align: center;	
+}
+p{
+	color: #fff;
+}
+.a{
+	color: #fff;
+}
+.b{
+	color:yellow;
+}
+@media (max-width: 640px) {
+	 .ft-perfil{
+		width: 50%;	
+	}
+	@keyframes movie{
+		from{top: -80px;}
+		to{top:0px;}
+	}
+	h1{
+		font-size: 30px;
+	}
+	h2{
+		font-size: 25px;
+	}
+	div img{
+		width: 30px;
+	}
+	footer p{
+		font-size: 15px;
+	}
+}
+
